@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     public GameObject hidenCoin1;
     public GameObject hidenCoin2;
     public GameObject hidenCoin3;
-    public int x = 3;
 
     public GameObject player;
     private Animator anim;

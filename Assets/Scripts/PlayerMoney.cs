@@ -12,6 +12,7 @@ public class PlayerMoney : MonoBehaviour
     {
         money = 0;
         moneyText.text = money.ToString();
+
     }
 
     public void AddMoney (int moneyToAdd)
