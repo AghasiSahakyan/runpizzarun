@@ -14,6 +14,7 @@ TagManager:
   - Tortoise4
   - Tortoise5
   - HidenCollider
+  - Lever
   layers:
   - Default
   - TransparentFX

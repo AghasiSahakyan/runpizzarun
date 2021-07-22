@@ -15,8 +15,6 @@ public class Player : MonoBehaviour
 
     public GameObject player;
     private Animator anim;
-    private Animator tortoiseAnim;
-    public GameObject tortoise;
 
     public GameObject heart1;
     public GameObject heart2;
@@ -48,15 +46,17 @@ public class Player : MonoBehaviour
 
         //animation magic
         anim = GetComponent<Animator>();
-        tortoiseAnim = tortoise.GetComponent<Animator>();
 
         //gameplay magic
         rb = GetComponent<Rigidbody2D>();
         currentHP = topHP;
-        hidenPlatform.SetActive(false);
-        hidenCoin1.SetActive(false);
-        hidenCoin2.SetActive(false);
-        hidenCoin3.SetActive(false);
+        if (false)
+        {
+            hidenPlatform.SetActive(false);
+            hidenCoin1.SetActive(false);
+            hidenCoin2.SetActive(false);
+            hidenCoin3.SetActive(false);
+        }
     }
 
     private void Update()
