@@ -2036,9 +2036,6 @@ GameObject:
   m_Component:
   - component: {fileID: 726450449}
   - component: {fileID: 726450453}
-  - component: {fileID: 726450452}
-  - component: {fileID: 726450451}
-  - component: {fileID: 726450450}
   m_Layer: 0
   m_Name: HandRight
   m_TagString: Untagged
@@ -2060,64 +2057,6 @@ Transform:
   m_Father: {fileID: 1034265840}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &726450450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726450448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68fe9088cf75d0642b68c58f295baebe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
---- !u!114 &726450451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726450448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20e251a1b0e56c34d90d4f964ad885a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: 0
-  moneyText: {fileID: 0}
---- !u!114 &726450452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726450448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fedf917da0b852418bcbfa5cd20b727, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lastPlatformCollider: {fileID: 0}
-  lastPlatform: {fileID: 0}
-  hidenPlatform: {fileID: 0}
-  hidenCoin1: {fileID: 0}
-  hidenCoin2: {fileID: 0}
-  hidenCoin3: {fileID: 0}
-  player: {fileID: 1034265833}
-  heart1: {fileID: 0}
-  heart2: {fileID: 0}
-  heart3: {fileID: 0}
-  deadText: {fileID: 0}
-  obstacleJump: 0
-  speed: 0
-  jumpForce: 0
-  radius: 0
-  feetPos: {fileID: 0}
-  theGround:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!212 &726450453
 SpriteRenderer:
   m_ObjectHideFlags: 0
